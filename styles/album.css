@@ -7,7 +7,7 @@ body.album {
 }
 
 .album-cover-art {
-	postiion: relative;
+	position: relative;
 	left: 20%;
 	margin-top: 1rem;
 	width: 60%;
@@ -39,11 +39,11 @@ body.album {
 	margin:  1.5rem auto;
 	font-weight: 300;
 	font-size: 0.75em;
+	border-collapse: collapse;
 }
 
 .album-view-song-item {
 	height: 3rem;
-	/* #1 */
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -51,7 +51,7 @@ body.album {
 	width: 5%;
 }
 
-..song-item-title {
+.song-item-title {
 	width: 85%;
 }
 
